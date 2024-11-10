@@ -9,7 +9,7 @@ import lombok.*;
 @Data
 @ToString
 public class Employee {
-    private long employee_ID;
+    private String employee_ID;
     private String first_name;
     private String last_name;
     private String email;
